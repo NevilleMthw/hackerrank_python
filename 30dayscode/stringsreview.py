@@ -20,6 +20,7 @@ if __name__ == "__main__":
             # If x divisibility by 2 it gives a remainder goes to the if condition
             # If x has no remainder then it adds to the variable in else condition
             # += is used to append to the existing string value
+            # [x] is the character index which is checked and appended odd/even
             if x % 2:
                 oneline += first_string[x]
             else:
