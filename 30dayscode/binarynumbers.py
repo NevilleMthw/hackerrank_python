@@ -7,6 +7,7 @@ import re
 import sys
 from io import StringIO
 
+# Binary numbers integer
 sys.stdin = StringIO("""439""")
 
 if __name__ == "__main__":
